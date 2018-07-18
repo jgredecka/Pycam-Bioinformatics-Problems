@@ -1,7 +1,7 @@
 # Introduction to Solving Biological Problems with Python: Exercise 1.3.1
-# This program manipulates and modifies a protein sequence consisting of four different amino acids.
+# This program manipulates and modifies a protein sequence consisting of five amino acids.
 
-# Create four codon/amino acid variables
+# Create four codon variables.
 serineS = "AGT"
 leucineL = "CTT"
 tyrosineY = "TAT"
@@ -11,15 +11,15 @@ cystineC = "TGT"
 codonList = [cystineC, leucineL, tyrosineY, serineS, tyrosineY]
 print("The codon list for the protein sequence CLYSY is as follows:", codonList)
 
-# Calculate and print the length of the sequence 
+# Calculate and print the length of the sequence.
 length = len(codonList)
 print("This protein sequence consists of", length, "amino acids")
 
-# Print the DNA sequence of the last codon
+# Print the DNA sequence of the last amino acid.
 lastAminoAcid = codonList[-1]
 print("The last codon of this sequence is", lastAminoAcid)
 
-# Create two more variables for the DNA sequence of a start codon and a stop codon
+# Create two more variables for the DNA sequence of a start codon and a stop codon.
 startCodon = "AAT"
 stopCodon = "TTA"
 
